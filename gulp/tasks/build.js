@@ -42,7 +42,7 @@ gulp.task('optimizeImages', ['deleteDistFolder', 'styles', 'scripts'], function 
             interlaced: true,
             multipass: true
         }))
-        .pipe(gulp.dest("./docs/assets/images2"));
+        .pipe(gulp.dest("./docs/assets/images"));
 });
 
 gulp.task('usemin', ['deleteDistFolder'], function () {
