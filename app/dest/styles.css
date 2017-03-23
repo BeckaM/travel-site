@@ -528,7 +528,7 @@ a {
   background-color: #e0e6ef;
 }
 @media (min-width: 1010px) {
-  .page-section--testimonials {
+  .page-section--testimonials.lazyloaded {
     background: url('/assets/Images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
   }
@@ -653,26 +653,26 @@ a {
 }
 /* Begin Equal Height Rules */
 @media (min-width: 800px) {
-  .row--equal-height-at-medium {
+  .flexbox .row--equal-height-at-medium {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
-.row--equal-height-at-medium > div {
+.flexbox .row--equal-height-at-medium > div {
   float: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 @media (min-width: 1010px) {
-  .row--equal-height-at-large {
+  .flexbox .row--equal-height-at-large {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
   float: none;
   display: -webkit-box;
   display: -ms-flexbox;
