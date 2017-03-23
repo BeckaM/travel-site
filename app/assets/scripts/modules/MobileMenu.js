@@ -1,11 +1,11 @@
-import _jquery from 'jquery';
+import $ from 'jquery';
 
 class MobileMenu {
     constructor() {
         
-        this.siteHeader = _jquery(".site-header");
-        this.menuIcon = _jquery(".site-header__menu-icon");
-        this.menuContent = _jquery(".site-header__menu-content");
+        this.siteHeader = $(".site-header");
+        this.menuIcon = $(".site-header__menu-icon");
+        this.menuContent = $(".site-header__menu-content");
         this.events();
         
     }
